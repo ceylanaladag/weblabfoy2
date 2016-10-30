@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<select id="year" name="year"></select>
+<select id="month" name="month"></select>
+<select id="day" name="day"></select>
+<script>
+for(var i =1907; i < 2017 ; i++){
+	$("#year").html($("#year").html()+'<option value="+i+">'+i+'</option>')
+} 
+for(var i =1; i < 13 ; i++){
+	$("#month").html($("#month").html()+'<option value="+i+">'+i+'</option>')
+	}
+	for(var i =1; i < 32 ; i++){
+	$("#day").html($("#day").html()+'<option value="+i+">'+i+'</option>')
+	}
+</script>
+
+</body>
+</html>
+
